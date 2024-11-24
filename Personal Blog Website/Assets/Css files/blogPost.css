@@ -1,0 +1,116 @@
+.blog {
+
+    padding: 0 148px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+
+.blog .info h2 {
+
+    font-size: 30px;
+    margin-bottom: 40px;
+
+}
+
+.blog .info p {
+
+    font-size: 16px;
+    margin-bottom: 45px;
+    width: 100%;
+
+}
+
+.blog .info ul {
+
+    font-size: 16px;
+
+}
+
+.blog img {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+
+}
+
+.page-title {
+
+    padding: 0 148px;
+
+}
+
+#name {
+
+    padding: 60px 160px 0;
+
+}
+
+.posts {
+
+    padding: 60px 148px;
+
+}
+
+.content .post-list {
+    padding: 0 148px;
+    display: flex;                        
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.content .post-list .post-item {
+
+    background-color: #dbedf2;
+    padding: 24px;
+    width: 960px;
+    border-radius: 10px;
+
+}
+
+.content .post-list .post-item .buttons {
+
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.content .post-list .post-item .buttons button {
+
+    padding: 10px 30px;
+    background: #303f9f;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+}
+
+.content .post-list .post-item .buttons button {
+
+    font-size: 14px;
+    padding: 6px 20px;
+
+}
+
+.content .post-list .post-item .buttons button i {
+
+font-size: 22px;
+cursor: pointer;
+transition: color 0.3s ease;
+
+}
+
+.content .post-list .post-item .buttons button i:hover {
+
+    color: #303f9f;
+
+}
